@@ -8,8 +8,8 @@ public class EjercicioDos {
         Scanner sc = new Scanner (System.in);
         int pasajeros, tripulacion, num_ruedas, tipo;
         String matricula;
-        //boolean tripulacion;
-        for (int i=0; i<2; i++) {
+        
+        for (int i=0; i<10; i++) {
             System.out.print("¿Cuantos pasajeros puede llevar tu vehículo: ");
         pasajeros = sc.nextInt();
         System.out.println();
